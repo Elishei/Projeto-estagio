@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.Cabecalho {
+    padding: 10px;
+    text-align: center;
+    border: 2px solid; /* Cor e largura da borda */
+    background-color: rgb(33, 167, 93);
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav ul li a:hover {
+    color: #f00;
+  }
+  
+  .card:hover.poster img {
+  transform: scale(1.1)
+}
+.details{
+  position: absolute;
+  bottom: -100%;
+  left:0;
+  width: 100%;
+  height: auto;
+  padding:1.5em 1.5em 2em;
+  background: #000a;
+      backdrop-filter: blur(16px) saturate(120%);
+  transition: .3s;
+  color: #fff;
+  z-index: 2;
+}
+.card:hover .details{
+  bottom: 0;
+}
