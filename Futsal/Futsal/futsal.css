@@ -1,0 +1,114 @@
+html,body{
+  margin:0;
+  padding:0;
+}
+
+.Cabecalho {
+position: relative; /* Posicionamento relativo para referenciar o filho */
+height: auto; /* Altura automática */
+ text-align: center;
+/*border: 2px solid; /* Cor e largura da borda */
+/*background-color: rgb(33, 167, 93);*/
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhUpjqND-pKnM6k0tJEP8SHJJ2aNfNngFBQ&s');
+background-size: cover; /* Para cobrir toda a área */
+background-position: center; /* Para centralizar a imagem */
+background-repeat: no-repeat; /* Para evitar a repetição da imagem */
+}
+
+
+#tituloprincipal{
+color: #000000;
+font-family:'Franklin Gothic Medium'
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: F0F8FF;
+}
+
+/*nav ul li a:hover {
+  color: #f00;
+}*/
+
+
+.details{
+position: absolute;
+bottom: -100%;
+left:0;
+width: 100%;
+height: auto;
+padding:1.5em 1.5em 2em;
+background: #000a;
+backdrop-filter: blur(16px) saturate(120%);
+transition: .3s;
+color: #fff;
+z-index: 2;
+}
+
+#menu{
+background-color: #08680b;
+width:100%;
+height:20px;
+}
+.card:hover .details{
+bottom: 0;
+}
+
+#noticias {
+margin: 20px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px; /* Arredondamento de cantos */
+}
+
+#noticias a {
+display: block;
+padding: 10px;
+text-decoration: none;
+color: #007bff;
+}
+
+#noticias a {
+/*margin-bottom: 10px; /* Espaçamento entre links */
+/* border: 1px solid #ccc; /* Borda fina */
+border-radius: 5px; /* Arredondamento de cantos */
+font-size: 12px;
+}
+
+#noticias{
+margin: 20px auto; /* Centraliza horizontalmente */
+width: 600px; /* Largura fixa de 600px */
+padding: 10px;
+border: 1px solid #ccc;
+font-family: 'Roboto', sans-serif; /* Definir Roboto como a fonte principal, com sans-serif como fallback */
+}
+#noticias a:hover {
+color: red; /* Muda a cor do texto para vermelho no hover */
+text-decoration: underline; /* Adiciona sublinhado no hover */
+}
+#noticia {
+margin: 20px auto; /* Centraliza horizontalmente */
+width: 600px; /* Largura fixa de 600px */
+padding: 10px;  
+background-color: #e2dbdb	; /* Cor de fundo clara 
+border-radius: 5px; /* Arredonda os cantos */
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Efeito de sombra sutil */
+font-family: 'Roboto', sans-serif; /* Fonte Roboto para um visual moderno */
+font-size: 20px; /* Tamanho de fonte grande e impactante */
+font-weight: bold; /* Texto em negrito para destacar */
+color: #333; /* Cor escura e contrastante */
+text-align: center; /* Centraliza o texto horizontalmente */
+margin-top: 0; /* Remove a margem superior padrão */
+padding: 10px 0; /* Adiciona espaço acima e abaixo do texto */
+border-top: 3px solid #4CAF50; /* Linha verde em cima */
+}
